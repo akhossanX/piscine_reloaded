@@ -1,0 +1,1 @@
+find . \( \( -type f -name '#*#' \) -o \( -type f -name '*~' \) \) 2>/dev/null -print -delete
